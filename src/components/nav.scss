@@ -1,0 +1,21 @@
+.nav__container {
+    position: relative;
+    display: flex;
+    
+    justify-content: center;
+
+    .nav__list {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        padding-top: 20px;
+        margin-left: 0;
+
+        .nav__link {
+            text-decoration: none;
+            color: black;
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+    }
+}
