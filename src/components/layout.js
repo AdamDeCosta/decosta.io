@@ -20,7 +20,6 @@ const Layout = ({ children }) => (
       <>
         <div className="body__container">
           <Nav/>
-     
           {children}
         </div>
       </>
