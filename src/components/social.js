@@ -5,8 +5,14 @@ import { faGithub, faTwitter, faInstagram, faLinkedin } from '@fortawesome/free-
 import SocialLink from './socialLink'
 
 const Social = () => {
+    /*
+    let socialClass = document.getElementsByClassName("social");
+    let top = window.innerHeight - socialClass.clientHeight;
+    console.log(top);
+    */
+
     return (
-        <ul class="social">
+        <ul className="social">
             <SocialLink to="https://github.com/adamdecosta" icon={faGithub}/>
             <SocialLink to="https://twitter.com/adam_decosta" icon={faTwitter}/>
             <SocialLink to="https://instagram.com/adam.decosta" icon={faInstagram}/>

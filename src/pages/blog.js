@@ -4,16 +4,16 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Social from '../components/social'
 
-import '../components/about.scss'
+import '../components/blog.scss'
 
-const AboutPage = () => (
+const BlogPage = () => (
     <Layout>
-        <SEO title="About" />
-        <section className="about">
-            
+        <SEO title = "Blog" />
+        <section className="blog">
+
             <Social />
         </section>
     </Layout>
 )
 
-export default AboutPage
+export default BlogPage
