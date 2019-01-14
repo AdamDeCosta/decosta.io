@@ -11,7 +11,6 @@ const BlogPage = () => (
         <SEO title = "Blog" />
         <section className="blog">
 
-            <Social />
         </section>
     </Layout>
 )

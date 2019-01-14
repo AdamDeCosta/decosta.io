@@ -5,11 +5,6 @@ import { faGithub, faTwitter, faInstagram, faLinkedin } from '@fortawesome/free-
 import SocialLink from './socialLink'
 
 const Social = () => {
-    /*
-    let socialClass = document.getElementsByClassName("social");
-    let top = window.innerHeight - socialClass.clientHeight;
-    console.log(top);
-    */
 
     return (
         <ul className="social">

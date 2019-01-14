@@ -16,7 +16,7 @@ const IndexPage = () => (
       <img 
         src={Avatar}
         style={{width: AvatarSize, height: AvatarSize}}
-        alt="Person at computer waving."
+        alt="Person at a computer, waving."
       />
       <div className="header__about">
         <h3 className="header__about__bold">Hi! I'm Adam DeCosta!</h3>
@@ -26,7 +26,6 @@ const IndexPage = () => (
           machine learning, and augmented reality.
         </div>
       </div>
-      <Social />
     </section>
   </Layout>
 )
