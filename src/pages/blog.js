@@ -7,12 +7,10 @@ import Social from '../components/social'
 import '../components/blog.scss'
 
 const BlogPage = () => (
-    <Layout>
-        <SEO title = "Blog" />
-        <section className="blog">
-
-        </section>
-    </Layout>
+  <Layout>
+    <SEO title="Blog" />
+    <section className="blog" />
+  </Layout>
 )
 
 export default BlogPage

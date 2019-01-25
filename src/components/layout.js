@@ -4,7 +4,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import Social from './social.js'
 
 import './layout.scss'
-import Nav from './nav';
+import Nav from './nav'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -20,7 +20,7 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <div className="body__container">
-          <Nav/>
+          <Nav />
           {children}
           <Social />
         </div>
