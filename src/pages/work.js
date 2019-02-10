@@ -8,7 +8,9 @@ import '../components/work.scss'
 const WorkPage = () => (
   <Layout>
     <SEO title="Work" />
-    <section className="work" />
+    <section className="work">
+      Under construction
+    </section>
   </Layout>
 )
 

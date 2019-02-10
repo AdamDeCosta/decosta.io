@@ -6,8 +6,8 @@ import './social.scss'
 const SocialLink = props => {
   return (
     <li>
-      <a href={props.to} className="social__link" target="blank">
-        <FontAwesomeIcon icon={props.icon} />
+      <a href={props.to} className="social__link" target="blank" aria-label={props.alt}>
+        <FontAwesomeIcon icon={props.icon} alt={props.alt} />
       </a>
     </li>
   )

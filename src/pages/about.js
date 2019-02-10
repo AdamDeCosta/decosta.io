@@ -14,8 +14,10 @@ const AboutPage = () => (
         <div className="about__image">
           <Image />
         </div>
-        Hey I'm Adam DeCosta. I'm a third year Computer Science & Innovation
-        major studying at Champlain College. 
+        Hey, I'm Adam DeCosta. I'm a third year Computer Science & Innovation
+        major studying at Champlain College. I have a specialization in 
+        Mobile Development and a minor in Math. I love web development, and am 
+        interested in machine learning and augmented reality.
       </div>
     </section>
   </Layout>
