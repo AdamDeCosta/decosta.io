@@ -20,7 +20,7 @@ const IndexPage = () => (
       <div className="header__about">
         <h3 className="header__about__bold">Hi! I'm Adam DeCosta!</h3>
         <div className="header__about__body">
-          I'm a third year Computer Science & Innovation student at Champlain
+          I'm a senior Computer Science & Innovation student at Champlain
           College. I am specializing in mobile development, and interested in
           web development, machine learning, and augmented reality.
         </div>
